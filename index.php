@@ -15,9 +15,10 @@
 
 <body>
     <?php require_once "app/views/header.php"; ?>
-    <?php
-    // sass ./public/css/view.scss ./public/css/view.css --watch
-    require_once "app/views/footer.php";
+    <?php require_once "app/views/banner.php"; ?>
+    <!-- sass ./public/css/view.scss ./public/css/view.css --watch -->
+    <?php 
+        require_once "app/views/footer.php";
     ?>
 </body>
 
