@@ -17,6 +17,8 @@
     <?php require_once "app/views/header.php"; ?>
     <?php
     // sass ./public/css/view.scss ./public/css/view.css --watch
+    
+    require_once "app/views/product.php";
     require_once "app/views/footer.php";
     ?>
 </body>
