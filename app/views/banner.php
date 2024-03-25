@@ -2,7 +2,7 @@
     <div class="container">
         <div class="banner-container">
             <div class="banner-image">
-                <img src="./public/image/banner_iphone.png" alt="" >
+                <img src="./public/image/banner_iphone.png" alt="">
 
                 <img src="" alt="">
             </div>
@@ -14,13 +14,28 @@
 <section class="about">
     <div class="container">
         <div class="about-container">
-            <h2 class="about-title">Tim hieu ve iPhone</h2><br>
-            
+            <h2 class="about-title">Tìm hiểu về iPhone.</h2><br>
+
             <div class="about-list">
-          
+
                 <div class="about-item">
-                    <img src="public/image/image.png" alt="">
-                    <div class="about-item-content">
+                    <img src="public/image/image-about2.png" alt="">
+                    <!-- <div class="about-item-content">
+                        <h3 class="about-item-title">Camera tiên tiến.</h3>
+                        <span class="about-item-desc">
+                            Chup anh.
+                        </span>
+                        <span class="about-item-desc">
+                            Chup anh.
+                        </span>
+                        <span class="about-item-desc">
+                            Chup anh.
+                        </span>
+                    </div> -->
+                </div>
+                <div class="about-item">
+                    <img src="public/image/image-about3.png" alt="">
+                    <!-- <div class="about-item-content">
                         <h3 class="about-item-title">Camera tien tien</h3>
                         <span class="about-item-desc">
                             Chup anh.
@@ -31,11 +46,11 @@
                         <span class="about-item-desc">
                             Chup anh.
                         </span>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="about-item">
-                    <img src="public/image/image.png" alt="">
-                    <div class="about-item-content">
+                    <img src="public/image/image-about1.png" alt="">
+                    <!-- <div class="about-item-content">
                         <h3 class="about-item-title">Camera tien tien</h3>
                         <span class="about-item-desc">
                             Chup anh.
@@ -46,11 +61,11 @@
                         <span class="about-item-desc">
                             Chup anh.
                         </span>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="about-item">
-                    <img src="public/image/image.png" alt="">
-                    <div class="about-item-content">
+                    <img src="public/image/image-about4.png" alt="">
+                    <!-- <div class="about-item-content">
                         <h3 class="about-item-title">Camera tien tien</h3>
                         <span class="about-item-desc">
                             Chup anh.
@@ -61,24 +76,9 @@
                         <span class="about-item-desc">
                             Chup anh.
                         </span>
-                    </div>
+                    </div> -->
                 </div>
-                <div class="about-item">
-                    <img src="public/image/image.png" alt="">
-                    <div class="about-item-content">
-                        <h3 class="about-item-title">Camera tien tien</h3>
-                        <span class="about-item-desc">
-                            Chup anh.
-                        </span>
-                        <span class="about-item-desc">
-                            Chup anh.
-                        </span>
-                        <span class="about-item-desc">
-                            Chup anh.
-                        </span>
-                    </div>
-                </div>
-                
+
             </div>
         </div>
     </div>

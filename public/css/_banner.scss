@@ -1,50 +1,70 @@
-.banner{
+.banner {
     margin-bottom: 30px;
 
-    &-container{
+    &-container {
         border-radius: 25px;
         overflow: hidden;
-        
-        &-image{
 
-        }
+        &-image {}
     }
 
 }
 
-.about{
+.about {
     margin-bottom: 20px;
-    &-list{
+
+    &-list {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-gap: 20px ;
-        
-    
+        grid-gap: 20px;
+
+
     }
 
-    &-title{
+    &-title {
         font-size: 44px;
-        font-weight: 600;
+        font-weight: 700;
     }
 
-    &-item{
+    &-item {
         position: relative;
         border-radius: 20px;
         overflow: hidden;
+        transition: all 0.5s ease-in-out;
 
-        &-content{
-            padding:  20px ;
+        &:hover {
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+
+            & img {
+                transform: scale(105%);
+            }
+        }
+
+        &>img {
+            transition: all 0.5s ease-in-out;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        &-content {
+            padding: 20px;
             position: absolute;
             top: 0;
             left: 0;
         }
 
-        &-title{
+        &-title {
+            text-shadow: #0000007c 0 4px 14px;
             font-size: 14px;
             font-weight: 500;
             color: #ffffff;
         }
-        &-desc{
+
+        &-desc {
+            text-shadow: #0000007c 0 4px 14px;
+
+
             display: block;
             font-size: 32px;
             font-weight: 600;
@@ -55,19 +75,32 @@
 
 }
 
-.category{
+.category {
 
 
-    &-container{
+    &-container {
         padding: 20px 0;
         border-radius: 100rem;
-        background-color: #f3f3f3;
+        background-color: #fff;
+        margin-bottom: 20px;
+        transition: all 0.7s ease;
+
+        &:hover {
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 24px;
+        }
     }
-    &-list{
+
+    &-list {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 100px;
-        
+        gap: 80px;
+
     }
+
+    // &-item {
+    //     background-color: #f3f3f3;
+    //     padding: 10px 10px;
+    //     border-radius: 100rem;
+    // }
 }
