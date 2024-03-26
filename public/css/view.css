@@ -283,4 +283,31 @@ li {
   align-items: center;
 }
 
+.process {
+  margin-bottom: 50px;
+}
+.process-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 80px;
+  margin: 20px auto;
+  position: relative;
+}
+.process-item {
+  margin-top: 50px;
+  display: grid;
+  padding: 10px 10px;
+  place-items: center;
+  text-align: center;
+}
+.process-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 1px;
+  background-color: #000000;
+}
+
 /*# sourceMappingURL=view.css.map */
