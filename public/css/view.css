@@ -181,10 +181,17 @@ li {
   overflow: hidden;
   transition: all 0.5s ease-in-out;
 }
+.about-item-detail {
+  opacity: 0.8;
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  transform: translate(-50%, -50%);
+}
 .about-item:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
 }
-.about-item:hover img {
+.about-item:hover > img {
   transform: scale(105%);
 }
 .about-item > img {

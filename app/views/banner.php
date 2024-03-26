@@ -32,6 +32,9 @@
                             Chup anh.
                         </span>
                     </div> -->
+                    <div class="about-item-detail">
+                        <img src="public/image/icons8_add.svg" alt="">
+                    </div>
                 </div>
                 <div class="about-item">
                     <img src="public/image/image-about3.png" alt="">
