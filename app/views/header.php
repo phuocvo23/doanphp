@@ -124,7 +124,7 @@
                 <a href="#" class="header-nav-item">About</a>
             </div>
             <div class="header-auth">
-                <a href="#" class="header-auth-login btn btn--primary">Login</a>
+                <a href="./app/views/login.php" class="header-auth-login btn btn--primary">Login</a>
                 <a href="#" class="header-auth-register btn btn--secondary">Sign up</a>
             </div>
         </div>

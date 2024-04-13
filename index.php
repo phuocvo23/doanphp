@@ -19,7 +19,7 @@
 
     <?php
 
-
+    
     require_once "app/views/banner.php";
     require_once "app/views/product.php";
     require_once "app/views/process.php";
